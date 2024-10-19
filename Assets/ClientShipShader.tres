@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://464fgnwdsa0s"]
+
+[ext_resource type="Shader" path="res://Assets/ClientShipMask.gdshader" id="1_a650o"]
+
+[resource]
+shader = ExtResource("1_a650o")
+shader_parameter/color_from = PackedColorArray(0.737255, 0.545098, 0.160784, 1, 0.858824, 0.635294, 0.188235, 1, 0.94902, 0.713726, 0.207843, 1, 1, 0.764706, 0.219608, 1)
+shader_parameter/color_to = PackedColorArray(1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1)
+shader_parameter/tolerance = 0.05

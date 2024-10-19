@@ -1,0 +1,204 @@
+{
+	"categories": [
+		{
+			"uuid": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"title": "Task",
+			"color": "70bafa"
+		}
+	],
+	"stages": [
+		{
+			"uuid": "242abda4-c51d-4af4-a8b2-c5cfbe9fbd54",
+			"title": "Todo",
+			"tasks": [
+				"66080545-aedb-4766-847e-520d2cd59580",
+				"8f8ba549-32fd-4469-aee6-8f2628a459f6",
+				"e0c2efbd-20ca-4bb3-891e-3ba987cca861",
+				"0ab85cac-8cb0-45bd-9f8f-383a799f18a5",
+				"38be95a8-c6b9-4536-abe1-250a9d6e858b",
+				"501e24b7-07bd-4bf7-9724-4ddb54202235",
+				"479bb4af-237e-4af4-ba3e-1374c8f863fb"
+			]
+		},
+		{
+			"uuid": "29e35977-ca9a-447c-af75-2ed4076ad619",
+			"title": "Doing",
+			"tasks": [
+				"711fa309-5a80-468c-b60a-473cc794507a",
+				"62e9d3d3-bbd3-427c-aa26-03cd5c2bd5e7"
+			]
+		},
+		{
+			"uuid": "fdcca46d-3524-492d-8e00-fcce116b9964",
+			"title": "Done",
+			"tasks": [
+				"d7eb5e21-e6f5-4ea6-b7e9-800f9f46ca38",
+				"29e0d0f0-fb87-4624-9574-e58b75fd1270",
+				"633ef973-d65e-4935-8427-bcb3d9892652",
+				"1efdda04-1c66-4a09-8e4d-ea37a671e585",
+				"ce828966-f67f-4bf1-ad2d-e838c4e1e667"
+			]
+		}
+	],
+	"tasks": [
+		{
+			"uuid": "d7eb5e21-e6f5-4ea6-b7e9-800f9f46ca38",
+			"title": "Système de caméra",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "29e0d0f0-fb87-4624-9574-e58b75fd1270",
+			"title": "Grid, layer",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "633ef973-d65e-4935-8427-bcb3d9892652",
+			"title": "Portails et tuiles",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "1efdda04-1c66-4a09-8e4d-ea37a671e585",
+			"title": "Créer un vaisseau et test le pathfinder",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "ce828966-f67f-4bf1-ad2d-e838c4e1e667",
+			"title": "Créer les textures placeholders",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "711fa309-5a80-468c-b60a-473cc794507a",
+			"title": "Faire le système d'édit",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": [
+				{
+					"details": "dropdown des layers",
+					"done": true
+				},
+				{
+					"details": "preview de la tuile",
+					"done": true
+				}
+			]
+		},
+		{
+			"uuid": "66080545-aedb-4766-847e-520d2cd59580",
+			"title": "Créer l'UI",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": [
+				{
+					"details": "world map ui",
+					"done": true
+				},
+				{
+					"details": "edit mode ui",
+					"done": true
+				},
+				{
+					"details": "ticket ui",
+					"done": false
+				},
+				{
+					"details": "mail box ui",
+					"done": false
+				}
+			]
+		},
+		{
+			"uuid": "62e9d3d3-bbd3-427c-aa26-03cd5c2bd5e7",
+			"title": "Faire la Client Queue",
+			"description": "les ships bougent graphiquement dans la file mais pas dans l'array",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": [
+				{
+					"details": "changer le systeme de Ship actuel vers la logique de Client",
+					"done": true
+				},
+				{
+					"details": "faire un path qui soit smooth\n",
+					"done": false
+				}
+			]
+		},
+		{
+			"uuid": "8f8ba549-32fd-4469-aee6-8f2628a459f6",
+			"title": "Commencer le mode guichet",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": [
+				{
+					"details": "systeme dialogue",
+					"done": false
+				},
+				{
+					"details": "faire que le client parle",
+					"done": false
+				},
+				{
+					"details": "faire des choix qui sont du meme type que la demande client",
+					"done": false
+				}
+			]
+		},
+		{
+			"uuid": "e0c2efbd-20ca-4bb3-891e-3ba987cca861",
+			"title": "Créer les animations",
+			"description": "les animations de transitions, d'apparition d'UI, de portails ...",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "0ab85cac-8cb0-45bd-9f8f-383a799f18a5",
+			"title": "Rendre un peu plus peps les animations / mouvements",
+			"description": "faire peut etre avec le node Tween qui fait des anims EASE IN/OUT et des preset TRANS deja bien\n",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "38be95a8-c6b9-4536-abe1-250a9d6e858b",
+			"title": "Ajouter les particules",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "501e24b7-07bd-4bf7-9724-4ddb54202235",
+			"title": "Mettre de la musique et des sfx",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "479bb4af-237e-4af4-ba3e-1374c8f863fb",
+			"title": "Faire les textures des clients et rendre la couleure modifiable",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		}
+	],
+	"layout": {
+		"columns": [
+			[
+				"242abda4-c51d-4af4-a8b2-c5cfbe9fbd54"
+			],
+			[
+				"29e35977-ca9a-447c-af75-2ed4076ad619"
+			],
+			[
+				"fdcca46d-3524-492d-8e00-fcce116b9964"
+			]
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"Intro": {
+		"Message": "Hey Man! [char=f5b8]"
+	},
+	"Demand": {
+		"Message": "Bro, I want a %PRODUCT%. Drive me to a %MARKET%"
+	},
+	"Outro": {
+		"Message": "Goodbye! [char=f5b8]"
+	}
+}

@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvvyey2idgv7o"]
+
+[ext_resource type="PackedScene" uid="uid://vkqiekgknxe6" path="res://Scenes/WorldMap.tscn" id="1_15xlf"]
+[ext_resource type="Script" path="res://Scripts/Main.cs" id="1_dhfys"]
+[ext_resource type="PackedScene" uid="uid://o6vxbuj583uj" path="res://Scenes/TicketOfficeMap.tscn" id="2_l5ppi"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_dhfys")
+
+[node name="World" parent="." instance=ExtResource("1_15xlf")]
+unique_name_in_owner = true
+
+[node name="TicketOfficeWorld" parent="." instance=ExtResource("2_l5ppi")]
+unique_name_in_owner = true

@@ -1,0 +1,153 @@
+pitch:
+un jeu 2d de gestion. Mamako est un guardien qui redirige les clients vers des portails spatiaux de points d'interets.
+Il lire les dialogues et envies des clients pour les rediriger au meilleur endroit. Le client peut noter sa satisfaction.
+au fur et a mesure, de nouveaux propriétaire de point d'interets seront intéresser pour ouvrir leurs portails, Mamako
+devra lire/accepter leur proposition contre des ressources. Les ressources seront changé en decoration pour embelir le centre d'interet de Mamako.
+
+jeu 2d:
+la map sera fixe, les portails pourront etre bougé.
+L'user déplacer uniquement sa caméra.
+
+edit mode:
+le joueur peux placer des tuiles, deplacer les portails/enlever les portails
+
+normal mode:
+le joueur peux voir les stats du portails
+le joueur peux voir les infos des clients
+
+gameplay:
+le joueur peux basculer en mode map pour voir toute la map et en mode guichet pour interagir avec les clients.
+les clients se stack si l'user ne les parlent pas.
+les clients qui ne sont pas dans le bon POI sont pas content et baisse les ressources.
+
+roadmap:
+faire le systeme camera
+faire la grid et layers de la map
+ajouter les portails, tiles et routes
+faire un vaisseau de test de pathfinding
+faire les textures
+faire l'edit mode
+ajouter d'autres vaisseaux
+faire l'UI
+faire la queue
+commencer le mode guichet
+faire les animations
+ajouter des particules
+paufiner l'UI
+ajouter des textes et storylines complet
+faire les textures vaisseaux et clients
+
+
+------ GAME DESIGN DOCUMENT ------
+
+Summary:
+1. Introduction
+2. Inspiration
+3. Player Experience
+4. Platform
+5. Development Software
+6. Genre
+7. Target Audience
+8. Gameplay Overview
+9. Theme Interpretation (Sacrifice is Strength)
+10. Primary Mechanics
+11. Secondary Mechanics
+12. Theme Interpretation
+13. Design
+14. Music
+15. Sounds Effects
+16. UI
+17. Controls
+18. Roadmap
+
+--- 1. Introduction ---
+Pitch: un jeu 2d de gestion. Mamako est un guardien qui redirige les clients vers des portails spatiaux de points d'interets.
+
+--- 2. Inspiration ---
+Pas d'inspiration particulière, juste un jeu de gestion simple.
+
+--- 3. Player Experience ---
+Le joueur doit gérer les clients et les portails pour les rediriger vers les points d'interets.
+Ce jeu doit être relaxant et amusant.
+
+--- 4. Platform ---
+Steam
+Itch.io
+
+--- 5. Development Software ---
+Godot Engine 4
+Paint.net
+FL Studio
+
+--- 6. Genre ---
+Gestion, Solo, 2D
+
+--- 7. Target Audience ---
+Tout public
+
+--- 8. Gameplay Overview ---
+Le joueur doit rediriger les clients vers les portails spatiaux de points d'interets.
+Il peux décorer son centre d'interet avec les ressources gagnées, déplacer les portails et gérer les clients.
+
+--- 9. Theme Interpretation (Sacrifice is Strength) ---
+Le joueur doit sacrifier des ressources pour obtenir des décorations et améliorer son parc commercial.
+
+--- 10. Primary Mechanics ---
+- Gestion des clients
+- Gestion des portails
+- Gestion des ressources
+- Décoration du centre d'interet
+
+--- 11. Secondary Mechanics ---
+- Déplacement des portails
+- Déplacement des clients
+- Gestion des files d'attente
+- Gestion des propriétaires de points d'interets
+
+--- 12. Theme Interpretation ---
+DA du jeu: Assets 2D, style cartoon, ambiance spatiale, vaisseaux, portails en forme de vortex, clients variés avec des styles différents.
+
+--- 13. Design ---
+- Atlas de texture pour les tiles
+- Atlas de texture pour les vaisseaux
+- Atlas de texture pour les clients
+- Atlas de texture pour les UI
+
+--- 14. Music ---
+Musique relaxante, ambiance spatiale, musique d'attente, musique de victoire.
+
+--- 15. Sounds Effects ---
+Sons de vaisseaux, sons de portails, sons de clients, sons de décorations.
+
+--- 16. UI ---
+UI simple, claire et intuitive, avec des icônes pour les actions.
+faire le moins d'UI possible pour ne pas surcharger l'écran tout en gardant les informations essentielles.
+
+--- 17. Controls ---
+click pour déplacer les clients, click pour déplacer les portails, click pour interagir avec les clients.
+m: basculer en mode map / guichet
+e: basculer en mode edit / normal
+r: rotation des tiles en mode edit
+souris: déplacer la caméra
+
+--- 18. Roadmap ---
+1. Concevoir le système de caméra
+2. Créer la grille et les calques de la carte
+3. Ajouter les portails, les tuiles
+4. Créer un vaisseau de test pour le pathfinding
+5. Créer les textures
+6. Ajouter le mode édition
+7. Ajouter d'autres vaisseaux
+8. Créer l'UI
+9. Créer la file d'attente
+10. Commencer le mode guichet
+11. Créer les animations
+12. Ajouter des particules
+13. Peaufiner l'UI
+14. Ajouter des textes et des scénarios complets
+15. Créer les textures des vaisseaux et des clients
+16. Tester et déboguer
+17. Lancer le jeu sur Steam et Itch.io
+18. Suivre les retours des joueurs et mettre à jour le jeu en conséquence
+19. Ajouter des fonctionnalités supplémentaires si nécessaire
+20. Continuer à soutenir le jeu et la communauté

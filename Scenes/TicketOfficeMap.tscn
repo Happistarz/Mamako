@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://o6vxbuj583uj"]
+
+[ext_resource type="PackedScene" uid="uid://kpga42ldgq1y" path="res://Scenes/DialogWindow.tscn" id="1_th8el"]
+
+[node name="TicketOfficeWorld" type="Node2D"]
+
+[node name="DialogWindow" parent="." instance=ExtResource("1_th8el")]
