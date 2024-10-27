@@ -1,0 +1,444 @@
+{
+  "StellarEmporium": {
+    "Name": "Stellar Emporium",
+    "Category": "Market",
+    "Products": [
+      {
+        "Name": "Starlight Crystals",
+        "Prefix": "a",
+        "Icon": "f005",
+        "Price": 100
+      },
+      {
+        "Name": "Galactic Trinkets",
+        "Prefix": "a",
+        "Icon": "f1b2",
+        "Price": 50
+      },
+      {
+        "Name": "Celestial Artifacts",
+        "Prefix": "a",
+        "Icon": "f70b",
+        "Price": 200
+      }
+    ],
+    "Description": "The ultimate market where intergalactic traders barter rare items from the far reaches of the universe. Beware of wormhole discounts!",
+    "Prefix": "a"
+  },
+  "GalacticForge": {
+    "Name": "Galactic Forge",
+    "Category": "Workshop",
+    "Products": [
+      {
+        "Name": "Starsteel Blades",
+        "Prefix": "a",
+        "Icon": "f5e1",
+        "Price": 500
+      },
+      {
+        "Name": "Plasma Blasters",
+        "Prefix": "a",
+        "Icon": "f6e2",
+        "Price": 750
+      },
+      {
+        "Name": "Quantum Cannons",
+        "Prefix": "a",
+        "Icon": "f7a7",
+        "Price": 1000
+      }
+    ],
+    "Description": "A forge where the most durable and advanced weapons are crafted using the energy of stars.",
+    "Prefix": "a"
+  },
+  "DimensionalRiftCafe": {
+    "Name": "Dimensional Rift Café",
+    "Category": "Cafe",
+    "Products": [
+      {
+        "Name": "Time-Warp Tea",
+        "Prefix": "a",
+        "Icon": "f0e3",
+        "Price": 10
+      },
+      {
+        "Name": "Quantum Cookies",
+        "Prefix": "a",
+        "Icon": "f6b3",
+        "Price": 5
+      },
+      {
+        "Name": "Parallel Pastries",
+        "Prefix": "a",
+        "Icon": "f2f5",
+        "Price": 8
+      }
+    ],
+    "Description": "Enjoy snacks from across space and time while watching rifts open to parallel dimensions. Just don’t spill your tea—it could destabilize reality.",
+    "Prefix": "a"
+  },
+  "TechnomancerSanctuary": {
+    "Name": "Technomancer Sanctuary",
+    "Category": "Store",
+    "Products": [
+      {
+        "Name": "Arcane Circuits",
+        "Prefix": "an",
+        "Icon": "f2db",
+        "Price": 300
+      },
+      {
+        "Name": "Enchanted Gadgets",
+        "Prefix": "an",
+        "Icon": "f108",
+        "Price": 500
+      },
+      {
+        "Name": "Mystic Devices",
+        "Prefix": "a",
+        "Icon": "f6e0",
+        "Price": 800
+      }
+    ],
+    "Description": "A hidden store for those who blend magic and technology. This sanctuary has everything from spell-coded microchips to enchanted hard drives.",
+    "Prefix": "a"
+  },
+  "AstralOperaHouse": {
+    "Name": "Astral Opera House",
+    "Category": "Entertainment",
+    "Products": [
+      {
+        "Name": "Stardust Concerts",
+        "Prefix": "a",
+        "Icon": "f001",
+        "Price": 50
+      },
+      {
+        "Name": "Galactic Operas",
+        "Prefix": "a",
+        "Icon": "f3a2",
+        "Price": 100
+      },
+      {
+        "Name": "Celestial Ballets",
+        "Prefix": "a",
+        "Icon": "f1e6",
+        "Price": 75
+      }
+    ],
+    "Description": "Home to performances that transcend time and space. Witness concerts played on instruments made of stardust, and operas echoing across galaxies.",
+    "Prefix": "an"
+  },
+  "BlackHoleBazaar": {
+    "Name": "Black Hole Bazaar",
+    "Category": "Market",
+    "Products": [
+      {
+        "Name": "Gravity Orbs",
+        "Prefix": "a",
+        "Icon": "f034",
+        "Price": 150
+      },
+      {
+        "Name": "Dark Matter Relics",
+        "Prefix": "a",
+        "Icon": "f6e4",
+        "Price": 300
+      },
+      {
+        "Name": "Singularity Souvenirs",
+        "Prefix": "a",
+        "Icon": "f5a3",
+        "Price": 200
+      }
+    ],
+    "Description": "A mysterious marketplace located at the edge of a black hole. They say the gravity here is as irresistible as the deals.",
+    "Prefix": "a"
+  },
+  "TimekeepersGuild": {
+    "Name": "Timekeeper's Guild",
+    "Category": "Guild",
+    "Products": [
+      {
+        "Name": "Temporal Devices",
+        "Prefix": "a",
+        "Icon": "f017",
+        "Price": 1000
+      },
+      {
+        "Name": "Reality Benders",
+        "Prefix": "a",
+        "Icon": "f5c3",
+        "Price": 1500
+      },
+      {
+        "Name": "Chrono Artifacts",
+        "Prefix": "a",
+        "Icon": "f85a",
+        "Price": 2000
+      }
+    ],
+    "Description": "A secret guild devoted to preserving and manipulating the flow of time. Rumor has it that guild members can craft devices that bend reality itself.",
+    "Prefix": "a"
+  },
+  "CelestialFarm": {
+    "Name": "Celestial Farm",
+    "Category": "Agriculture",
+    "Products": [
+      {
+        "Name": "Starfruit",
+        "Prefix": "a",
+        "Icon": "f5d3",
+        "Price": 20
+      },
+      {
+        "Name": "Comet Grains",
+        "Prefix": "a",
+        "Icon": "f6f2",
+        "Price": 15
+      },
+      {
+        "Name": "Nebula Vegetables",
+        "Prefix": "a",
+        "Icon": "f5d1",
+        "Price": 10
+      }
+    ],
+    "Description": "An advanced farm where crops are grown in zero gravity using sunlight harvested from distant stars. Its produce is the finest in the cosmos.",
+    "Prefix": "a"
+  },
+  "QuantumSpa": {
+    "Name": "Quantum Spa",
+    "Category": "Wellness",
+    "Products": [
+      {
+        "Name": "Quantum Massages",
+        "Prefix": "a",
+        "Icon": "f86b",
+        "Price": 75
+      },
+      {
+        "Name": "Photon Facials",
+        "Prefix": "a",
+        "Icon": "f6e6",
+        "Price": 50
+      },
+      {
+        "Name": "Neutrino Baths",
+        "Prefix": "a",
+        "Icon": "f5d0",
+        "Price": 100
+      }
+    ],
+    "Description": "Relax as the quantum fields realign your energy and massage away your atomic stress. The spa of the future, where science meets relaxation.",
+    "Prefix": "a"
+  },
+  "NebulaLibrary": {
+    "Name": "Nebula Library",
+    "Category": "Education",
+    "Products": [
+      {
+        "Name": "Ancient Scrolls",
+        "Prefix": "an",
+        "Icon": "f516",
+        "Price": 250
+      },
+      {
+        "Name": "Lost Tomes",
+        "Prefix": "a",
+        "Icon": "f02d",
+        "Price": 150
+      },
+      {
+        "Name": "Traveler's Journals",
+        "Prefix": "a",
+        "Icon": "f5d2",
+        "Price": 200
+      }
+    ],
+    "Description": "A library that spans entire star systems. This is where the knowledge of the ancients, travelers, and lost civilizations is stored for curious minds.",
+    "Prefix": "a"
+  },
+  "VoidCasino": {
+    "Name": "Void Casino",
+    "Category": "Entertainment",
+    "Products": [
+      {
+        "Name": "Quantum Slots",
+        "Prefix": "a",
+        "Icon": "f3b0",
+        "Price": 25
+      },
+      {
+        "Name": "Blackjack Nebula",
+        "Prefix": "a",
+        "Icon": "f126",
+        "Price": 50
+      },
+      {
+        "Name": "Cosmic Poker",
+        "Prefix": "a",
+        "Icon": "f6d2",
+        "Price": 75
+      }
+    ],
+    "Description": "Test your luck in games where the stakes are as high as the gravity is low. Just don’t bet your ship—or your existence.",
+    "Prefix": "a"
+  },
+  "HyperNovaResort": {
+    "Name": "HyperNova Resort",
+    "Category": "Recreation",
+    "Products": [
+      {
+        "Name": "Plasma Pools",
+        "Prefix": "a",
+        "Icon": "f5c4",
+        "Price": 150
+      },
+      {
+        "Name": "Solar Spa",
+        "Prefix": "a",
+        "Icon": "f2db",
+        "Price": 200
+      },
+      {
+        "Name": "Zero-G Yoga",
+        "Prefix": "a",
+        "Icon": "f6d7",
+        "Price": 100
+      }
+    ],
+    "Description": "A luxury resort for those looking to escape the daily grind of galactic life. The plasma pools are heated by nearby suns!",
+    "Prefix": "a"
+  },
+  "InfiniteEchoMuse": {
+    "Name": "Infinite Echo Museum",
+    "Category": "Culture",
+    "Products": [
+      {
+        "Name": "Echoes of the Past",
+        "Prefix": "an",
+        "Icon": "f5a2",
+        "Price": 100
+      },
+      {
+        "Name": "Light Art Installations",
+        "Prefix": "a",
+        "Icon": "f06e",
+        "Price": 75
+      },
+      {
+        "Name": "Ancient Artifacts",
+        "Prefix": "an",
+        "Icon": "f493",
+        "Price": 150
+      }
+    ],
+    "Description": "A museum dedicated to the cultures that no longer exist. Walk through echoes of civilizations long gone, or witness interactive art made of pure light.",
+    "Prefix": "an"
+  },
+  "EventHorizonCafe": {
+    "Name": "Event Horizon Café",
+    "Category": "Cafe",
+    "Products": [
+      {
+        "Name": "Quantum Lattes",
+        "Prefix": "a",
+        "Icon": "f0f4",
+        "Price": 5
+      },
+      {
+        "Name": "Graviton Muffins",
+        "Prefix": "a",
+        "Icon": "f0f8",
+        "Price": 3
+      },
+      {
+        "Name": "Singularity Scones",
+        "Prefix": "a",
+        "Icon": "f0f2",
+        "Price": 4
+      }
+    ],
+    "Description": "A cozy café on the edge of oblivion, where drinks are strong enough to warp space-time. The perfect spot for interdimensional travelers to unwind.",
+    "Prefix": "an"
+  },
+  "StarshipWorkshop": {
+    "Name": "Starship Workshop",
+    "Category": "Workshop",
+    "Products": [
+      {
+        "Name": "Warp Drives",
+        "Prefix": "a",
+        "Icon": "f5a4",
+        "Price": 1000
+      },
+      {
+        "Name": "Hull Coatings",
+        "Prefix": "a",
+        "Icon": "f5a0",
+        "Price": 500
+      },
+      {
+        "Name": "Plasma Thrusters",
+        "Prefix": "a",
+        "Icon": "f5a3",
+        "Price": 750
+      }
+    ],
+    "Description": "The go-to place for starship repair and upgrades. Whether you need a warp drive or a new hull coating, this workshop can handle it.",
+    "Prefix": "a"
+  },
+  "InterdimensionalEmbassy": {
+    "Name": "Interdimensional Embassy",
+    "Category": "Government",
+    "Products": [
+      {
+        "Name": "Multiversal Treaties",
+        "Prefix": "a",
+        "Icon": "f6e0",
+        "Price": 500
+      },
+      {
+        "Name": "Diplomatic Pacts",
+        "Prefix": "a",
+        "Icon": "f6e0",
+        "Price": 750
+      },
+      {
+        "Name": "Universal Knowledge",
+        "Prefix": "a",
+        "Icon": "f6e0",
+        "Price": 1000
+      }
+    ],
+    "Description": "The hub of interdimensional diplomacy, where ambassadors from across the multiverse negotiate treaties and share knowledge.",
+    "Prefix": "an"
+  },
+  "CelestialDiner": {
+    "Name": "Celestial Diner",
+    "Category": "Cafe",
+    "Products": [
+      {
+        "Name": "Zero-G Fries",
+        "Prefix": "a",
+        "Icon": "f2e5",
+        "Price": 5
+      },
+      {
+        "Name": "Stellar Burgers",
+        "Prefix": "a",
+        "Icon": "f354",
+        "Price": 10
+      },
+      {
+        "Name": "Galactic Shakes",
+        "Prefix": "a",
+        "Icon": "f1fb",
+        "Price": 3
+      }
+    ],
+    "Description": "An intergalactic pit stop where you can grab a bite to eat on your way across the stars. The zero-G fries are out of this world!",
+    "Prefix": "a"
+  }
+}

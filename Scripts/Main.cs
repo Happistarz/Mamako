@@ -15,14 +15,10 @@ public partial class Main : Node2D
 	{
 
 		_world = GetNode<Node2D>("World");
-		_ticketMap = GetNode<Node2D>("TicketMap");
+		_ticketMap = GetNode<Node2D>("TicketOfficeWorld");
 
+		_currentNode = _ticketMap;
 		ChangeScene(_world);
-	}
-
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
 	}
 
 	public void ChangeScene(Node2D node)
@@ -43,12 +39,11 @@ public partial class Main : Node2D
 
 	private void Disable(Node2D node)
 	{
-		if (node != null)
-		{
-			node.Visible = false;
-			node.SetProcess(false);
-			node.SetPhysicsProcess(false);
-			node.SetProcessInput(false);
-		}
+		if (node == null) return;
+
+		node.Visible = false;
+		node.SetProcess(false);
+		node.SetPhysicsProcess(false);
+		node.SetProcessInput(false);
 	}
 }

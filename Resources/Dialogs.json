@@ -3,7 +3,7 @@
 		"Message": "Hey Man! [char=f5b8]"
 	},
 	"Demand": {
-		"Message": "Bro, I want a %PRODUCT%. Drive me to a %MARKET%"
+		"Message": "Bro, I want [bgcolor=#d0032c9][char=f08d]%WHAT%[/bgcolor]. Drive me to %PREFIX% %PORTAL%"
 	},
 	"Outro": {
 		"Message": "Goodbye! [char=f5b8]"

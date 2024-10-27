@@ -1,0 +1,50 @@
+{
+  "Market": {
+    "Name": "Market",
+    "Icon": "f07a"
+  },
+  "Workshop": {
+    "Name": "Workshop",
+    "Icon": "f0ad"
+  },
+  "Cafe": {
+    "Name": "Cafe",
+    "Icon": "f0f4"
+  },
+  "Store": {
+    "Name": "Store",
+    "Icon": "f54e"
+  },
+  "Entertainment": {
+    "Name": "Entertainment",
+    "Icon": "f0f3"
+  },
+  "Guild": {
+    "Name": "Guild",
+    "Icon": "f3ff"
+  },
+  "Agriculture": {
+    "Name": "Agriculture",
+    "Icon": "f1b2"
+  },
+  "Wellness": {
+    "Name": "Wellness",
+    "Icon": "f0f3"
+  },
+  "Education": {
+    "Name": "Education",
+    "Icon": "f19d"
+  },
+  "Recreation": {
+    "Name": "Recreation",
+    "Icon": "f61f"
+  },
+  "Culture": {
+    "Name": "Culture",
+    "Icon": "f1b2"
+  },
+  "Government": {
+    "Name": "Government",
+    "Icon": "f19d"
+  }
+}

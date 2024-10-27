@@ -1,0 +1,11 @@
+{
+	"Intro": {
+		"Message": "Hey Man! [char=f5b8]"
+	},
+	"Demand": {
+		"Message": "Bro, I want %WHAT_PREFIX% [bgcolor=#df0032c9][char=%WHAT_ICON%] %WHAT%[/bgcolor]. Drive me to %PREFIX% [bgcolor=#df0032c9][char=%PORTAL_ICON%] %PORTAL%[/bgcolor]."
+	},
+	"Outro": {
+		"Message": "Thank you bro! [char=f5b8]"
+	}
+}

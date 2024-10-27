@@ -1,0 +1,86 @@
+[gd_scene load_steps=12 format=3 uid="uid://c2sy0pipemx6t"]
+
+[ext_resource type="Script" path="res://Scripts/Client/Client.cs" id="1_vfvdm"]
+[ext_resource type="Material" uid="uid://464fgnwdsa0s" path="res://Assets/Shaders/ClientShipShader.tres" id="2_1cige"]
+[ext_resource type="Texture2D" uid="uid://c1cuj3krjpt2u" path="res://Assets/Textures/ship.png" id="3_avp5e"]
+[ext_resource type="Texture2D" uid="uid://c1dn8f8grw1sn" path="res://Assets/Textures/ship_animated.png" id="4_rrtv4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wmwv4"]
+atlas = ExtResource("4_rrtv4")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nt08n"]
+atlas = ExtResource("4_rrtv4")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bl3p5"]
+atlas = ExtResource("4_rrtv4")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_du8gx"]
+atlas = ExtResource("4_rrtv4")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ya4ty"]
+atlas = ExtResource("4_rrtv4")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mq1tv"]
+atlas = ExtResource("4_rrtv4")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4nvrx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wmwv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nt08n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bl3p5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_du8gx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ya4ty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mq1tv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Client" type="Node2D"]
+script = ExtResource("1_vfvdm")
+
+[node name="NameLabel" type="Label" parent="."]
+texture_filter = 1
+offset_left = -25.0
+offset_top = -59.0
+offset_right = 21.0
+offset_bottom = -36.0
+text = "Roger"
+metadata/_edit_use_anchors_ = true
+
+[node name="PortalUseTimer" type="Timer" parent="."]
+
+[node name="Ship" type="Sprite2D" parent="."]
+visible = false
+texture_filter = 1
+material = ExtResource("2_1cige")
+rotation = -1.5708
+texture = ExtResource("3_avp5e")
+region_rect = Rect2(0, 0, 64, 40)
+
+[node name="AnimatedShip" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+material = ExtResource("2_1cige")
+sprite_frames = SubResource("SpriteFrames_4nvrx")
+autoplay = "default"
+
+[connection signal="timeout" from="PortalUseTimer" to="." method="OnPortalUseTimeout"]

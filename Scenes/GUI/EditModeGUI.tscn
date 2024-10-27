@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://dy03hiii14dls"]
 
-[ext_resource type="Script" path="res://Scripts/EditModeGUI.cs" id="1_2e3m8"]
+[ext_resource type="Script" path="res://Scripts/GUI/EditModeGUI.cs" id="1_2e3m8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ulfab"]
 bg_color = Color(0.8, 0.8, 1, 1)
@@ -113,12 +113,11 @@ text = "Layer :"
 [node name="LayerDropdown" type="OptionButton" parent="VSplitContainer/Panel/MarginContainer/VSplitContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_constants/modulate_arrow = 1
 theme_override_styles/normal = SubResource("StyleBoxFlat_a6ll1")
-item_count = 2
+theme_override_constants/modulate_arrow = 1
 selected = 0
+item_count = 2
 popup/item_0/text = "Ground"
-popup/item_0/id = 0
 popup/item_1/text = "Props"
 popup/item_1/id = 3
 

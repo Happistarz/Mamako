@@ -2,11 +2,13 @@
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mamako", "Mamako.csproj", "{6FD64132-B7E4-47EF-A452-F9F8054B2E32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{2D87EA0D-7D06-4BE1-B282-1E507EB4F339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-	Debug|Any CPU = Debug|Any CPU
-	ExportDebug|Any CPU = ExportDebug|Any CPU
-	ExportRelease|Any CPU = ExportRelease|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6FD64132-B7E4-47EF-A452-F9F8054B2E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -15,5 +17,11 @@ Global
 		{6FD64132-B7E4-47EF-A452-F9F8054B2E32}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{6FD64132-B7E4-47EF-A452-F9F8054B2E32}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{6FD64132-B7E4-47EF-A452-F9F8054B2E32}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{2D87EA0D-7D06-4BE1-B282-1E507EB4F339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D87EA0D-7D06-4BE1-B282-1E507EB4F339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D87EA0D-7D06-4BE1-B282-1E507EB4F339}.ExportDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D87EA0D-7D06-4BE1-B282-1E507EB4F339}.ExportDebug|Any CPU.Build.0 = Debug|Any CPU
+		{2D87EA0D-7D06-4BE1-B282-1E507EB4F339}.ExportRelease|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D87EA0D-7D06-4BE1-B282-1E507EB4F339}.ExportRelease|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

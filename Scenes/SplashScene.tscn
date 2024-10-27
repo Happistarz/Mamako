@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfy5h20mlk84a"]
+
+[ext_resource type="Script" path="res://Scripts/SplashScene.cs" id="1_ckn6d"]
+[ext_resource type="Texture2D" uid="uid://dbpqa1axvvkoe" path="res://icon.svg" id="2_pwg5q"]
+
+[node name="SplashScene" type="Node2D"]
+script = ExtResource("1_ckn6d")
+
+[node name="Canvas" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Canvas"]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(64, 64)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("2_pwg5q")

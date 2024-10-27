@@ -11,6 +11,7 @@
 			"uuid": "242abda4-c51d-4af4-a8b2-c5cfbe9fbd54",
 			"title": "Todo",
 			"tasks": [
+				"1c1109b6-9911-4431-b8ab-7f159607c461",
 				"66080545-aedb-4766-847e-520d2cd59580",
 				"8f8ba549-32fd-4469-aee6-8f2628a459f6",
 				"e0c2efbd-20ca-4bb3-891e-3ba987cca861",
@@ -183,6 +184,13 @@
 		{
 			"uuid": "479bb4af-237e-4af4-ba3e-1374c8f863fb",
 			"title": "Faire les textures des clients et rendre la couleure modifiable",
+			"description": "",
+			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
+			"steps": []
+		},
+		{
+			"uuid": "1c1109b6-9911-4431-b8ab-7f159607c461",
+			"title": "convertir la world tile map en tile map layer",
 			"description": "",
 			"category": "3623c0b7-ef67-47f0-9262-bab709998fdd",
 			"steps": []

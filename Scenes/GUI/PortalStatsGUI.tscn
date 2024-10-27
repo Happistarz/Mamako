@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://b376fw6xdv4vi"]
 
 [ext_resource type="FontFile" uid="uid://5rxtb38l2t0k" path="res://addons/fontawesome/fonts/fa-solid-900.woff2" id="1_lm2d3"]
-[ext_resource type="Script" path="res://Scripts/PortalStatsGUI.cs" id="1_vs4av"]
+[ext_resource type="Script" path="res://Scripts/GUI/PortalStatsGUI.cs" id="1_vs4av"]
 [ext_resource type="Script" path="res://addons/fontawesome/FontAwesome.gd" id="2_s4dy0"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rsndh"]
